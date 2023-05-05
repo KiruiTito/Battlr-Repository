@@ -1,0 +1,151 @@
+*{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #0000ff2d;
+}
+
+#showcontent{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  float: right;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: azure;
+  padding: 2%;
+}
+
+#content{
+  text-align: center;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  background-color: rgb(70, 67, 67);
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+#content:hover{
+  background-color: aliceblue;
+  color: black;
+  transition: .4s;
+}
+
+h6{
+  display: flex;
+  justify-content: space-around;
+}
+
+.add{
+  border-radius: 20px;
+  border:1px solid inherit;
+  background-color: inherit;
+  color: inherit;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.add:hover{
+  transform: scale(1.3);
+  transition: .4s;
+  cursor: pointer;
+}
+
+#remove{
+  position: relative;
+  left: 45%;
+  color: red;
+  background-color: transparent;
+  border: transparent;
+  font-size: 130%;
+}
+
+#remove:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: .4s;
+}
+
+#mybots{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color:aliceblue;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: azure;
+  border: 1px solid black;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+#view-army{
+  margin-bottom: 1%;
+}
+
+#back{
+  margin-bottom: 1%;
+  position: absolute;
+  left: -1%;
+  top: 3%;
+}
+
+select{
+  background-color: inherit;
+}
+
+option{
+  background-color: #0000ff2d;
+}
+
+#green{
+  color: green;
+}
+
+#yellow{
+  color: blue;
+}
+
+#image{
+  position: absolute;
+  left: 1%;
+  border-radius: 100%;
+  height: 50%;
+  background-color: white;
+  margin-top: 8%;
+}
+
+#card{
+  background-color: white;
+}
+
+#bot-details{
+  position: absolute;
+  width: 50%;
+  left: 30%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+
+#btnstyle{
+  width: 50%;
+  margin-bottom: 3%;
+  margin-left: 25%;
+}
+
+#btnstyle:hover{
+  transform: scale(1.05);
+}
+
+#small{
+  font-size: 15px;
+}
